@@ -1,0 +1,66 @@
+{
+    "lang": {
+        "title": "Switch to English version."
+    },
+    "print": {
+        "title": "Vous pouvez imprimer au format PDF, les boutons et l'overlay seront automatiquement supprimés."
+    },
+    "profile": {
+        "name": "THOMAS\n<strong>FLAMENT</strong>",
+        "title": "Développeur Web Full Stack & UI/UX"
+    },
+    "contact": {
+        "address": "120 Bd Clémenceau,\n59700 Marcq-en-Baroeul",
+        "phone": "+33641437470",
+        "email": "tflament@icloud.com"
+    },
+    "about": {
+        "title": "À PROPOS",
+        "text": "Je suis un développeur fullstack passionné, spécialisé dans le développement frontend UI/UX, avec une solide expérience dans la conception et la mise en œuvre d'APIs, le développement backend, ainsi que l'intégration de systèmes complexes. <br /> J'aime créer des solutions technologiques qui offrent une expérience utilisateur exceptionnelle. <br /> Je suis également compétent dans la coordination avec les équipes backend pour intégrer harmonieusement les interfaces utilisateur avec les fonctionnalités backend. <br /> Ma capacité à comprendre les besoins des utilisateurs et à traduire ces besoins en solutions techniques efficaces fait de moi un atout précieux pour tout projet de développement web. <br /> Je suis également familier avec les méthodologies Agile telles que SCRUM et KANBAN, ce qui me permet de travailler de manière collaborative et efficace."
+    },
+    "skills": {
+        "title": "COMPÉTENCES",
+        "items": {
+            "languages": "Langages: HTML5, CSS3, SASS, JavaScript, ReactJS, Thymeleaf, Java",
+            "tools": "Outils: IntelliJ, Visual Studio Code, PSQL, MySQL, PostMan, Docker, Figma, Framer",
+            "methodologies": "Méthodologies: SCRUM, KANBAN",
+            "versionControl": "Contrôle de Version: Git/GitHub",
+            "others": "Autres: Bonnes pratiques de développement, veille technologique, conventions de nommage, travail sur micro-fonctionnalités."
+        }
+    },
+    "expertise": {
+        "title": "MES DERNIÈRES EXPÉRIENCES",
+        "position": "POSTE:",
+        "company": "ENTREPRISE:",
+        "experiences": [
+            {
+                "date": "DU 03/03/2023 AU 25/12/2023",
+                "position": "Développeur Fullstack en mission",
+                "company": "EkeepIT - Client: MATCH",
+                "description": "J'ai développé une API pour une caisse enregistreuse connectée, garantissant la compatibilité avec les systèmes actuels et futurs grâce à l'architecture hexagonale. Implémenté en JAVA 11, cette approche a privilégié la robustesse, la maintenabilité et l'évolutivité. De plus, j'ai optimisé le frontend en ReactJS, améliorant les performances en minimisant la taille des fichiers et l'utilisation des ressources."
+            },
+            {
+                "date": "DU 03/01/2021 AU 03/2023",
+                "position": "Développeur Web",
+                "company": "EkeepIT",
+                "description": "J'ai assumé le rôle d'intégrateur et développeur Frontend dans 2 projets d'incubation :",
+                "projects": [
+                    {
+                        "name": "My-UUU",
+                        "url": "https://my-uuu.com/",
+                        "description": "En équipe de cinq, j'ai contribué en tant qu'intégrateur/Frontend à un site facilitant l'inscription aux centres équestres et la recherche d'utilisateurs selon des critères spécifiques. Je me suis concentré sur les améliorations UI/UX, l'intégration des APIs en ReactJS, et la conversion des maquettes en pages fonctionnelles."
+                    },
+                    {
+                        "name": "My-Actividay",
+                        "url": "https://my-actividay.com/",
+                        "description": "En équipe de six, j'ai servi en tant qu'intégrateur/Frontend pour une application web offrant des services de création de CRA aux micro-entreprises et PME. Je me suis concentré sur les améliorations UI/UX, y compris la conversion des maquettes en pages fonctionnelles, les animations SCSS, et la structuration du projet en xHTML5 et Thymeleaf."
+                    }
+                ]
+            }
+        ]
+    },
+    "more": {
+        "title": "PLUS SUR MOI",
+        "text": "Pendant mon temps libre, je suis activement impliqué dans la création de petits projets. Notamment, j'ai développé le site web de <a href=\"https://www.plasticvortex.co/\">Plastic Vortex</a>, une organisation dédiée à la protection des écosystèmes fluviaux et océaniques en réduisant la pollution plastique. J'ai un fort appétit pour l'apprentissage et j'explore constamment de nouveaux sujets et technologies pour étendre mes compétences et connaissances."
+    }
+}

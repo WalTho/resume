@@ -1,0 +1,66 @@
+{
+    "lang": {
+        "title": "Basculer vers la version Française."
+    },
+    "print": {
+        "title": "You can print to PDF, the buttons and overlay will be removed automagically"
+    },
+    "profile": {
+        "name": "THOMAS\n<strong>FLAMENT</strong>",
+        "title": "UI/UX & Full Stack Web Developer"
+    },
+    "contact": {
+        "address": "120 Bd Clémenceau,\n59700 Marcq-en-Baroeul",
+        "phone": "+33641437470",
+        "email": "tflament@icloud.com"
+    },
+    "about": {
+        "title": "ABOUT",
+        "text": "I am a passionate fullstack developer, specializing in frontend UI/UX development, with a strong background in designing and implementing APIs, backend development, as well as integrating complex systems. <br /> I enjoy crafting technological solutions that provide exceptional user experiences. <br /> Additionally, I am proficient in collaborating with backend teams to seamlessly integrate user interfaces with backend functionalities. <br /> My ability to grasp user needs and translate them into efficient technical solutions makes me a valuable asset for any web development project. <br /> I am also familiar with Agile methodologies such as SCRUM and KANBAN, enabling me to work collaboratively and efficiently."
+    },
+    "skills": {
+        "title": "SKILLS",
+        "items": {
+            "languages": "Languages: HTML5, CSS3, SASS, JavaScript, ReactJS, Thymeleaf, Java",
+            "tools": "Tools: IntelliJ, Visual Studio Code, PSQL, MySQL, PostMan, Docker, Figma, Framer",
+            "methodologies": "Methodologies: SCRUM, KANBAN",
+            "versionControl": "Version Control: Git/GitHub",
+            "others": "Others: Development best practices, technology watch, naming conventions, Micro-feature work."
+        }
+    },
+    "expertise": {
+        "title": "MY LAST EXPERIENCES",
+        "position": "POSITION:",
+        "company": "COMPANY:",
+        "experiences": [
+            {
+                "date": "FROM 03/03/2023 TO 25/12/2023",
+                "position": "Fullstack Developer on assignment",
+                "company": "EkeepIT - Client: MATCH",
+                "description": "I developed an API for a connected cash register, ensuring compatibility with current and future systems through the hexagonal architecture. Implemented in JAVA 11, this approach prioritized robustness, maintainability, and scalability. Additionally, I optimized the frontend in ReactJS, enhancing performance by minimizing file size and resource usage."
+            },
+            {
+                "date": "FROM 03/01/2021 TO 03/2023",
+                "position": "Web Developer",
+                "company": "EkeepIT",
+                "description": "Taking on the role of integrator and Frontend developer in 2 incubation projects:",
+                "projects": [
+                    {
+                        "name": "My-UUU",
+                        "url": "https://my-uuu.com/",
+                        "description": "In a team of five, I contributed as a Frontend/Integrator to a website facilitating equestrian center registration and user search based on specific criteria. I focused on UI/UX enhancements, integrating APIs in ReactJS, converting mockups into functional pages."
+                    },
+                    {
+                        "name": "My-Actividay",
+                        "url": "https://my-actividay.com/",
+                        "description": "In a team of six, I served as a Frontend/Integrator for a web app providing CRA creation services to micro-enterprises and SMEs. I focused on UI/UX improvements, including mockup conversion to functional pages, SCSS animations, and project structuring using xHTML5 and Thymeleaf."
+                    }
+                ]
+            }
+        ]
+    },
+    "more": {
+        "title": "MORE ABOUT ME",
+        "text": "In my spare time, I am actively involved in creating small projects. Notably, I developed the website for <a href=\"https://www.plasticvortex.co/\">Plastic Vortex</a>, an organization dedicated to protecting river and ocean ecosystems by mitigating plastic pollution. I have a strong appetite for learning and am constantly exploring new topics and technologies to expand my skills and knowledge."
+    }
+}

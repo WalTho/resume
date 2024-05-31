@@ -127,7 +127,6 @@ h1,h2,h3{
 }
 #root{
     display: flex;
-    height: 100vh;
     width: 100%;
     align-items: center;
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAGlJREFUKFNdjwsNgDAMBW82hgywgQ10oAMb2AAZYGPkYFsamizp5/r6loAROPliBTbgrnVJNRGaK2ArAxeQGuDmHpQKMKgk4NBnqHS4Wetsoly/CUzRUyfbzb+nBvSb4TevJwGHUWmJnh6LfRfV9nhQ9AAAAABJRU5ErkJggg==) repeat ;
@@ -137,8 +136,46 @@ h1,h2,h3{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
-        font-size: 102px;
+        font-size: 90px;
         color: rgb(60, 60, 77);
-        opacity: 0.5;
+        opacity: 0;
+    }
+}
+
+@media print {
+    #root{
+        height: 100vh;
+        &::before{
+            content: '';
+        }
+    }
+    .home__lang-switch{
+        display: none;
+    }
+    .home__print-button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home{
+        display: none;
+    }
+    #root{
+        &::before{
+            opacity: 1;
+            top: 25% !important;
+            transform: rotate(0) translate(-50%, -50%) !important;
+        }
+        &::after{
+            content: 'Responsive is not ready yet, please resize your browser to 1000px or larger.';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(60, 60, 77);
+            opacity: 1;
+            font-size: 25px;
+        }
     }
 }

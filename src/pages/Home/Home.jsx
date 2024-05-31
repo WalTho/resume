@@ -7,7 +7,7 @@ const Home = () => {
         <section className='home'>
             <article className='home__profile'>
                 <div className='home__profile-photo'>
-                    <img className='home__profile-img' src={Photo} alt="" />
+                    <img className='home__profile-img' src={Photo} alt="profile-photo" />
                 </div>
                 <div className='home__profile-info'>
                     <h1 className='home__profile-info-name'>
@@ -28,8 +28,8 @@ const Home = () => {
                         </a>
                     </span>
                     <span>
-                        <a href='mailto:waltorias.as@gmail.com' className='home__profile-contact-email'>
-                            waltorias.as@gmail.com
+                        <a href='mailto:tflament@icloud.com' className='home__profile-contact-email'>
+                            tflament@icloud.com
                             <i className="fa-solid fa-envelope"></i>
                         </a>
 
@@ -69,20 +69,15 @@ const Home = () => {
                     <h3>FROM 03/03/2023 TO 25/12/2023</h3>
                     <p><strong>POSITION:</strong> Fullstack Developer on assignment</p>
                     <p><strong>COMPANY:</strong> EkeepIT - Client: MATCH</p>
-
                     <p>I developed an API for a connected cash register, ensuring compatibility with current and future systems through the hexagonal architecture. Implemented in JAVA 11, this approach prioritized robustness, maintainability, and scalability. Additionally, I optimized the frontend  in ReactJS, enhancing performance by minimizing file size and resource usage.</p>
-
 
                     <h3>FROM 03/01/2021 TO 03/2023</h3>
                     <p><strong>POSITION:</strong> Web Developer</p>
                     <p><strong>COMPANY:</strong> EkeepIT</p>
-
                     <p>Taking on the role of integrator and Frontend developer in 2 incubation projects:</p>
-
-                    <p>- <strong>My-UUU:</strong></p>
+                    <a href='https://my-uuu.com/'>- <strong>My-UUU:</strong></a>
                     <p>In a team of five, I contributed as a Frontend/Integrator to a website facilitating equestrian center registration and user search based on specific criteria. I focused on UI/UX enhancements, integrating APIs in ReactJS, converting mockups into functional pages.</p>
-
-                    <p>- <strong>My-Actividay:</strong></p>
+                    <a href='https://my-actividay.com/'>- <strong>My-Actividay:</strong></a>
                     <p>In a team of six, I served as a Frontend/Integrator for a web app providing CRA creation services to micro-enterprises and SMEs. I focused on UI/UX improvements, including mockup conversion to functional pages, SCSS animations, and project structuring using xHTML5 and Thymeleaf.</p>
 
                 </div>
@@ -90,7 +85,7 @@ const Home = () => {
 
             <article className='home__more'>
                 <h2 className='home__more-title'>MORE ABOUT ME</h2>
-                <p className='home__more-text'>I'm passionate about music as well, particularly playing the guitar. In my spare time, I'm also actively involved in creating small projects for myself and a fan website dedicated to a video game community. I have a strong appetite for learning and am constantly exploring new topics and technologies to expand my skills and knowledge.</p>
+                <p className='home__more-text'>In my spare time, I am actively involved in creating small projects. Notably, I developed the website for <a href="https://www.plasticvortex.co/">Plastic Vortex</a>, an organization dedicated to protecting river and ocean ecosystems by mitigating plastic pollution. I have a strong appetite for learning and am constantly exploring new topics and technologies to expand my skills and knowledge.</p>
             </article>
         </section>
     );

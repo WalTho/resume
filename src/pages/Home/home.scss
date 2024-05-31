@@ -1,6 +1,6 @@
 .home{
-    margin: 20px auto;
-    width: 900px;
+    margin: 15px auto;
+    width: 1000px;
     max-height: 1289px;
     overflow: hidden;
     display: grid;
@@ -44,6 +44,7 @@
             justify-content: space-between;
             &-name{
                 font-size: 20px;
+                width: 500px;
                 &>strong{
                     font-weight: 600;
                 }
@@ -123,7 +124,14 @@
             word-spacing: 1.5px;
             &>p>strong{
                 font-weight: 600;
+            }
+            &>a{
+                font-weight: 600;
                 text-decoration: underline;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    color: rgba(110, 255, 255, 0.7);
+                }
             }
             &>h3{
                 margin-top: 15px;
@@ -144,6 +152,14 @@
             margin: 25px;
             line-height: 1.4;
             word-spacing: 1.5px;
+            &>a{
+                text-decoration: underline;
+                transition: all 0.2s ease-in-out;
+                font-weight: 600;
+                &:hover{
+                    color: rgba(110, 255, 255, 0.7);
+                }
+            }
         }
     }
 }

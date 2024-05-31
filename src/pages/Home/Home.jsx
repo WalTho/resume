@@ -57,7 +57,7 @@ const Home = () => {
                 <h2 className='home__skills-title'>SKILLS</h2>
                 <ul className='home__skills-text'>
                     <li><h3>Languages:</h3> HTML5, CSS3, SASS, JavaScript, ReactJS, Thymeleaf, Java</li>
-                    <li><h3>Tools:</h3> IntelliJ, Visual Studio Code, PSQL, MySQL, PostMan, Docker</li>
+                    <li><h3>Tools:</h3> IntelliJ, Visual Studio Code, PSQL, MySQL, PostMan, Docker, Figma, Framer</li>
                     <li><h3>Methodologies:</h3> SCRUM, KANBAN</li>
                     <li><h3>Version Control:</h3> Git/GitHub</li>
                     <li><h3>Others:</h3> Development best practices, technology watch, naming conventions, Micro-feature work.</li>
